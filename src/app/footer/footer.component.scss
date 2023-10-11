@@ -1,0 +1,148 @@
+.footer-wrapper {
+    border: 2px solid;
+    border-top-right-radius: 96px;
+    border-top-left-radius: 96px;
+    background-color: rgb(25 29 136);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.navbar {
+    display: block;
+    margin-top: 40px;
+}
+
+.navbar h1 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.navbar ul {
+    display: block;
+    margin-top: 12px;
+}
+
+.navbar li, a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.links-wrapper {
+    display: block;
+    margin-right: 12px;
+    margin-top: 40px;
+}
+
+.link-whatsapp {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icons-wrapper {
+    display: block;
+    margin-right: 12px;
+    margin-top: 40px;
+    line-height: 12px;
+}
+
+.icons-wrapper h1 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+.links-wrapper h1 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.links-wrapper img {
+    display: block;
+    cursor: pointer;
+    margin-top: 12px;
+    border: none;
+    padding: 8px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.links-wrapper img:hover {
+    background-color: rgb(255 196 54);
+}
+.contacts-image {
+    display: block;
+    margin-top: 12px;
+    border: none;
+    padding: 8px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.contacts-image:hover {
+    background-color: rgb(255 196 54);
+}
+
+.skill-links-wrapper {
+    border: none;
+    padding: 6px;
+    width: 40px;
+    margin: auto;
+    height: 40px;
+    margin-top: 12px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.skill-links-wrapper:hover {
+    background-color: rgb(255 196 54);
+}
+
+.framework-wrapper {
+    display: block;
+    margin-right: 12px;
+    margin-top: 40px;
+    margin-left: 16px;
+}
+
+.framework-wrapper h1 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.frameworks-links-wrapper {
+    border: 2px solid;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-top: 12px;
+    border-radius: 6px;
+    margin-top: 20;
+    background-color: white;
+}
+
+.frameworks-links-wrapper:hover {
+    background-color: rgb(255 196 54);
+}
+
+.framework-image {
+    margin: auto;
+}
+
+.paragraph p {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}

@@ -1,0 +1,110 @@
+.testimonial-wrapper {
+    margin-top: 40px;
+    background-color: rgb(20 80 163);
+}
+
+.testimonial-header {
+    width: 75%;
+    margin-top: 20px;
+    padding: 9px;
+    text-align: center;
+    // margin: auto;
+}
+
+.testimonial-header h1 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.testimonial-header p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.content-wrapper {
+    width: 75%;
+    height: 384px;
+    margin: auto;
+    border: none;
+    padding: 12px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    box-shadow: 0 20px 25px -5px white;
+    background-color: rgb(51 124 207);
+    text-align: center;
+}
+
+.image-wrapper {
+    width: 96px;
+    height: 96px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: white;
+}
+
+.image-wrapper img {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.testimonials-details {
+    width: 75%;
+    height: 156px;
+    margin-top: 8px;
+    margin: auto;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.name {
+    display: block;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.institution {
+    display: block;
+    margin-top: 8px;
+}
+
+.text {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.button-wrapper {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-wrapper button {
+    width: 192px;
+    height: 48px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(20 80 163);
+    box-shadow: 0 4px 6px -1px white;
+    color: white;
+    border-radius: 8px;
+}
+
+.button-wrapper button:hover{
+    background-color: rgb(255 196 54);
+    color: rgb(25 29 136);
+}

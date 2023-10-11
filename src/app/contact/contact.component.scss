@@ -1,0 +1,137 @@
+.contact-wrapper {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(51 124 207);
+}
+
+.contact-wrapper h1 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contacts-image-wrapper {
+    width: 224px;
+    height: 112px;
+    border-radius: 6px;
+    background-color: white;
+    color: rgb(51 65 85);
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid;
+    text-align: center;
+}
+.contacts-image-wrapper img {
+    margin: auto;
+}
+
+.form-wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-wrapper form {
+    padding: 8px;
+    width: 40%;
+}
+
+.form-control {
+    margin-top: 12px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input {
+    border-bottom: 2px solid;
+    width: 100%;
+    height: 56px;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+textarea {
+    border-bottom: 2px solid;
+    width: 100%;
+    height: 192px;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+button {
+    width: 160px;
+    height: 56px;
+    border: none;
+    background-color: rgb(25 29 136);
+    box-shadow: 0 4px 6px -1px white;
+    color: white;
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(255 196 54);
+    color: rgb(25 29 136);
+}
+
+.content {
+    width: 40%;
+    padding: 8px;
+}
+
+.content-header {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.content-text {
+    color: white;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+    column-gap: 8px;
+}
+
+.images{
+    cursor: pointer;
+    border: none;
+    padding: 6px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.images:hover {
+    background-color: rgb(255 196 54);
+    columns: rgb(25 29 136);
+
+}
+
+.whatsapp {
+    font-weight: bold;
+    margin: auto;
+    color: white;
+}

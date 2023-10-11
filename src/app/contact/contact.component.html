@@ -1,0 +1,85 @@
+<div class="contact-wrapper" id='contacts'>
+    <h1>Contact Me</h1>
+      <div class="contacts">
+        <div class="contacts-image-wrapper">
+          <img class="m-auto" [src]="phoneUrl" alt="Contack Image" />
+          <h3>Contact:</h3>
+          <p> 7145920/5847203</p>
+        </div>
+        <div class="contacts-image-wrapper">
+          <img class="m-auto" [src]="faxUrl" alt="Contack Image" />
+          <h3>Fax:</h3>
+          <p> 7145920/5847203</p>
+        </div>
+        <div class="contacts-image-wrapper">
+          <img class="m-auto" [src]="mailUrl" alt="Contack Image" />
+          <h3>Email:</h3>
+          <p> musajoof447@gmail.com</p>
+        </div>
+      </div>
+        <div class="form-wrapper ">             
+            <form action="/">
+              <div class="form-control">
+                <label htmlFor="email" id="email">Email</label>
+                <input 
+                  type="text" 
+                  name="email"  
+                  title='Enter your email address'
+                  placeholder="Enter your email address"
+                />
+              </div>
+              <div class="form-control">
+                <label htmlFor="password" id="password">Password</label>
+                <input  
+                  type="text" 
+                  name="password"  
+                  title='Enter your password'
+                  placeholder="Enter your password"
+                />
+              </div>
+              <div class="form-control">
+                <label>Message</label>
+                <textarea
+                  type="text"
+                  placeholder="Enter your message"
+                  title='Enter your message'
+                >
+                  
+                  
+                </textarea>
+              </div>
+              <button 
+                class="w-40 h-14  border-none bg-secondary shadow-md hover:bg-complimentry hover:text-secondary shadow-white text-white rounded-md p-2 font-bold cursor-pointer mt-4"
+                type='submit'
+              >
+                Submit
+              </button>
+            </form>
+
+            <div class="content ">
+              <button>
+                Let's Get In Touch
+              </button>
+              <p class="content-header">Joofen Technology</p>
+              <p class="content-text">Please if you want to be a developer, join JCC and you not regreate it. if want a junior developer we are at your door step</p>
+              <div class="links-wrapper">
+                <a href="https://www.facebook.com/musa.joof.75641pl" target='_blank' title='Link to my facebook'>
+                  <img class="images" [src]="facebookUrl" alt="FaceBookImage" />
+                </a>
+                
+                <a href="https://twitter.com/musajoof447" target='_blank' title='Link to my twitter'>
+                <img class='images' [src]="twitterUrl" alt="TwitterImage" />
+                </a>
+
+                <a class='text-center mt-5' title='Link to my whatsApp'>
+                <img class='images' [src]="whatsappUrl" alt="WhatsAppImage" />
+                  <span class=' whatsapp'>7145920</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/musa-joof-b81a82247" target='_blank' title='Link to my linkein'>
+                <img class='images' [src]="linkedinUrl" alt="LinkinImage" />
+                </a>
+              </div>
+            </div>
+        </div>
+    </div>
